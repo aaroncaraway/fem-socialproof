@@ -29,7 +29,8 @@ h1 {
   background-color: hsl(300, 24%, 96%);
   text-align: center;
   padding: 10px;
-  margin: 10px 5px;
+  border-radius: 10px;
+  margin: 15px 10px;
 }
 
 /* .star-rating {
@@ -46,17 +47,31 @@ h1 {
 .testimonial {
   background-color: hsl(300, 43%, 22%);
   color: hsl(0, 0%, 100%);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   margin: 10px;
 }
 
 .testimonial--person-name {
   color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 2px;
 }
 
 .testimonial--person-status {
   color: hsl(333, 80%, 67%);
+  font-size: 15px;
+}
+
+.testimonial-image {
+  width: 50px;
+}
+
+.testimonial--text {
+  margin-top: 40px;
+  line-height: 1.5rem;
+  font-size: 15px;
 }
 
 @media (min-width: 992px) {
