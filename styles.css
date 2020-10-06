@@ -14,19 +14,71 @@ body {
   }
 }
 
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  text-align: center;
+}
+.grab {
+  color: hsl(300, 43%, 22%);
+  margin: 20px 10px;
+  text-align: center;
+  line-height: 1.75rem;
+}
 .rating {
   background-color: hsl(300, 24%, 96%);
+  text-align: center;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+/* .star-rating {
+  margin: 5px;
+  padding: 0px;
+} */
+
+.rating-text {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  padding-top: 10px;
 }
 
 .testimonial {
   background-color: hsl(300, 43%, 22%);
   color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-.testimonial-person-name {
+.testimonial--person-name {
   color: hsl(0, 0%, 100%);
 }
 
-.testimonial-person-status {
+.testimonial--person-status {
   color: hsl(333, 80%, 67%);
+}
+
+@media (min-width: 992px) {
+  h1 {
+    text-align: left;
+  }
+  .grab {
+    text-align: left;
+  }
+  .rating {
+    text-align: left;
+  }
+  .star-rating-2 {
+    margin-left: 30px;
+  }
+  .star-rating-3 {
+    margin-left: 60px;
+  }
+  .testimonial-2 {
+    margin-top: 20px;
+  }
+  .testimonial-3 {
+    margin-top: 40px;
+  }
 }
